@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: rgba(0, 255, 106, 0.452);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.plus-icon{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color:  rgba(0, 255, 106, 0.452);
+    padding: 20px;
+    border-radius: 100%;
+    margin: 10px;
+    font-size: 40px;
+    border: none;
+}
+.overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.7;
+    display: none;
+}
+.popup-box{
+    background-color:  rgba(0, 255, 106, 0.452);
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: 20%;
+    padding: 40px;
+    display: none;
+}
+.popup-box h2{
+    background-color: black ;
+    color: white;
+    width: 100%;
+}
+.popup-box input{
+    background-color: transparent;
+    
+    border: none;
+    border-bottom: solid black 2px;
+    font-size: 20px;
+    margin: 20px;
+    width: 100%;
+}
+.popup-box textarea{
+    background-color: transparent;
+    color: black;
+    border: none;
+    border: solid black 2px;
+    font-size: 20px;
+    margin: 20px;
+    width: 100%;
+}
+.popup-box button{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.popup-box input::placeholder,textarea::placeholder{
+    color: black;
+}
+.container{
+    background-color: rgba(0, 255, 106, 0.452);
+    height: fit-content;
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+}
+.container h2{
+    color: #fd6569;
+}
+.container p{
+    margin: 10px;
+}
+.container h4{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.container button{
+    padding: 5px;
+    background-color: black;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
