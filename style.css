@@ -96,3 +96,9 @@
     color: yellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+@media (max-width: 600px){
+    .container{
+        width: 90%;
+        
+    }
+}
